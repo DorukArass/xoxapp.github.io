@@ -101,7 +101,7 @@ function onCheckGameTie() {
       cells[i].style.backgroundColor = '#8bc34a';
       cells[i].removeEventListener('click', onTurnClick, false)
     }
-    onDeclareWinner('A Tie');
+    onDeclareWinner('Berabere');
     return true;
   } else {
     return false;
