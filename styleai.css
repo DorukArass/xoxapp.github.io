@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css2?family=Itim&display=swap);
+body {
+    background-color: #12181B;
+    height: 100vh;
+    padding-top: 1px;
+    font-family: 'Itim', cursive;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .text-center {
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    margin-top: auto;
+
+
+  
+}
+  .container {
+    margin:auto;
+    display:block;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+  }
+  
+  .cell {
+    border: white solid 1px;
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  #reset,
+  #numbers,
+  #difficulty {
+    color: white;
+    background-color: black;
+    border: white solid 1px;
+    padding: 5px 15px;
+    margin: 30px 20px;
+  }
+  
+  #overlay {
+    text-align: center;
+    font-weight: bold;
+    font-size: 75px;
+    text-shadow: 2px 2px 8px rgb(0, 0, 0);
+    color: rgb(45, 172, 161);
+    margin: 10px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    animation: show 2s ease-out forwards;
+  }
+  
+  @keyframes show {
+    0% {
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
