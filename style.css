@@ -21,7 +21,7 @@
 
 .display {
     color: white;
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -79,26 +79,32 @@
 
 button {
    background-color: whitesmoke;
-    padding: 8px;
+    padding: 10px;
     border-radius: 8px;
-    border:none;
+    border: 1px;
     font-size: 40px;
-    cursor: pointer;
-    text-align: center;
-    vertical-align:auto;
+    cursor: 1px;
+    text-align:center;
+    vertical-align:baseline;
     margin-left:auto;
-    margin-right: 100px;
-    margin-top: 100px;
-    position: block;
-
+    margin-right: 10px;
+    margin-top: 50px;
 
 }
 
 a{
 
 
-    color: white;
-    
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    font-size: 40px;
+    cursor: 1px;
+    text-align:center;
+    vertical-align:baseline;
+    margin-left:auto;
+    margin-right: 40px;
+    margin-top: 50px;
+
   					
 }
 
